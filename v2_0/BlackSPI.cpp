@@ -28,7 +28,7 @@
  */
 
 
-
+#include <unistd.h>
 
 
 #include "BlackSPI.h"

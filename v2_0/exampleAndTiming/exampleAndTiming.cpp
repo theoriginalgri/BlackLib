@@ -40,12 +40,12 @@
 
 int main()
 {
-    exampleAndTiming_GPIO();
-    exampleAndTiming_ADC();
+//    exampleAndTiming_GPIO();
+//    exampleAndTiming_ADC();
     exampleAndTiming_PWM();
-    exampleAndTiming_SPI();
-    exampleAndTiming_UART();
-    exampleAndTiming_I2C();
+//    exampleAndTiming_SPI();
+//    exampleAndTiming_UART();
+//    exampleAndTiming_I2C();
 
     return 0;
 }

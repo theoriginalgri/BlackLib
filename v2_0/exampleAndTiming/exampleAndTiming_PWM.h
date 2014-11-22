@@ -70,7 +70,7 @@ void exampleAndTiming_PWM()
 
 
     pwmTiming.startMeasure("1. Constructor");
-    BlackLib::BlackPWM    pwmLed(BlackLib::EHRPWM2A);
+    BlackLib::BlackPWM    pwmLed(BlackLib::EHRPWM0A);
     pwmTiming.endMeasure("1. Constructor");
 
 
@@ -197,6 +197,7 @@ void exampleAndTiming_PWM()
 
     std::cout << std::endl << "Percent value is out of range." << std::endl;
 
+    pwmLed.setDutyPercent(0);
 
     std::cout << pwmTiming.getAllMeasureTable();
     pwmTiming.saveToFile("BlackPWM_timing_results.out");

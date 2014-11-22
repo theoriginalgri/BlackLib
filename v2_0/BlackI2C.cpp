@@ -28,7 +28,7 @@
  */
 
 
-
+#include <unistd.h>
 
 #include "BlackI2C.h"
 
