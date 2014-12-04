@@ -154,6 +154,10 @@ namespace BlackLib
         return this->ainName;
     }
 
+    std::string BlackADC::getAINPath()
+    {
+        return this->ainPath;
+    }
 
     int         BlackADC::getNumericValue()
     {

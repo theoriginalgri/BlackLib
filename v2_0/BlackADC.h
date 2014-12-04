@@ -349,6 +349,12 @@ namespace BlackLib
             */
             adcName         getName();
 
+            /*! @brief Contains the AIN path in the local file system.
+             *
+             *  @return BlackADC::ainPath variable
+             */
+            std::string     getAINPath();
+
             /*! @brief Is used for general debugging.
             *
             * @return True if any error occured, else false.
