@@ -41,7 +41,7 @@
 #include <cstring>
 #include <string>
 #include <fstream>
-#include <cstdint>
+#include <stdint.h>
 
 #include <fcntl.h>
 #include <sys/ioctl.h>

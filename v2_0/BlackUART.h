@@ -36,7 +36,7 @@
 
 #include <string>
 #include <fstream>
-#include <cstdint>
+#include <stdint.h>
 
 #include <fcntl.h>
 #include <termios.h>
